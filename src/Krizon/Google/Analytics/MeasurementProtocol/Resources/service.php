@@ -35,6 +35,12 @@ return array(
                     'sentAs' => 'User-Agent',
                     'default' => 'PHP GA Measurement Protocol'
                 ),
+                'uip' => array(
+                    'location' => 'postField'
+                ),
+                'dr' => array(
+                    'location' => 'postField'
+                ),
                 'cm1' => array(
                     'description' => 'Custom metric 1',
                     'location' => 'postField',
